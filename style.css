@@ -45,3 +45,65 @@ b{
 .menu li{
     margin: 0  15px;
 }
+.menu li a{
+    font-size: 25px;
+    color: #808080;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.reseau a{
+    font-size:20px;
+    color:#808080 ;
+    margin: 25px 10px;
+}
+.menu li a:hover{
+    color: yellow;
+}
+.reseau a :hover{
+    color: yellow;
+}
+.corps{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+}
+.gauche , .droite{
+    width: 50%;
+
+}
+.gauche{
+    z-index: 5;
+}
+.textB{
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: gray;
+}
+.textB::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: yellow;
+}
+h1{
+    display: flex;
+    font-size: 3em;
+    font-weight: 900;
+    color: gray;
+}
+p{
+    display: flex;
+    width: 90%;
+    font-size: 1.2em;
+    text-align: justify;
+    color: gray;
+
+}
